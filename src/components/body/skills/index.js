@@ -10,13 +10,13 @@ function Skills() {
       <Separator />
     <label className="section-title">Skills</label>
     <div className="skills-container">
-      {data.map((item) => {
+      {data.map((item,index) => {
         return (
-          <div className="skills-section">
+          <div key={index} className="skills-section">
             <label className="skills-section-title">{item.type}</label>
             <div className="skills-list">
-              {item.list.map((skill) => {
-                return <SkillCard skill={skill} />;
+              {item.list.map((skill,skill_index) => {
+                return <SkillCard key={`${item.type}-${index}-${skill_index}`} skill={skill} />;
               })}
             </div>
           </div>

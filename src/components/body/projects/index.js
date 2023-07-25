@@ -8,10 +8,10 @@ function Projects() {
   return (
     <div className="projects">
       <Separator />
-      <label className="section-title">Projects</label>
+      <label className="section-title">Experience</label>
       <div>
         {data.map((project) => {
-          return <ProjectCard project={project} />;
+          return <ProjectCard key={project.id} project={project} />;
         })}
       </div>
     </div>
