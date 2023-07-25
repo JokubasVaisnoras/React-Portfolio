@@ -5,8 +5,8 @@ export const ProjectData=[
         about: " Worked on a website that displays Vilnius API data on the map.Implemented a backend system with Python that pulled data from APIs and stored it locally using SQLAlchemy. Implemented new technologies such as Vue.js, React for the frontend, and Python for the backend",
         tags:["ReactJS", "Web Design" , "Web Development"],
         demo:"https://duomenys.vilnius.lt/#/",
-        image:"/vplanas.jpg",
-        secondary_image: "/vilniaus_planas.png"
+        image:"vplanas.jpg",
+        secondary_image: "vilniaus_planas.png"
     },
     {
         id:2,
@@ -14,8 +14,8 @@ export const ProjectData=[
         about: " Created a website for a company that increased sales by up to 20% monthly and implemented a custom WordPress template using WooCommerce.",
         tags:["Wordpress", "eCommerse", "Design"],
         demo:"https://feja.lt/",
-        image:"/feja1.png",
-        secondary_image: "/feja.png",
+        image:"feja1.png",
+        secondary_image: "feja.png",
     },
     {
         id:3,
@@ -25,7 +25,7 @@ export const ProjectData=[
         demo:"https://github.com/ThantZinPhyo-Slark/always-illest",
         github:"https://github.com/ThantZinPhyo-Slark/always-illest",
         image:"hack.png",
-        secondary_image: "/hack_f.jpg"
+        secondary_image: "hack_f.jpg"
     },
     {
         id:4,
@@ -34,6 +34,6 @@ export const ProjectData=[
         tags:["HTML", "SCSS", "JavaScript"],
         demo:"https://www.facebook.com/programavimoklubas/",
         image:"pk.png",
-        secondary_image: "/pk_work.jpg",
+        secondary_image: "pk_work.jpg",
     },
 ];
