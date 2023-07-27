@@ -5,7 +5,7 @@ export const ProjectData=[
         about: " Worked on a website that displays Vilnius API data on the map.Implemented a backend system with Python that pulled data from APIs and stored it locally using SQLAlchemy. Implemented new technologies such as Vue.js, React for the frontend, and Python for the backend",
         tags:["ReactJS", "Web Design" , "Web Development"],
         demo:"https://duomenys.vilnius.lt/#/",
-        image:"vplanas.jpg",
+        image:"/vplanas.jpg",
         secondary_image: "vilniaus_planas.png"
     },
     {

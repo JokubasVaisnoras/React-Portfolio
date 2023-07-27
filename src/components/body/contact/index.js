@@ -10,6 +10,8 @@ function Contact() {
     <div className="contact-container">
       <div className="contact-left">
         <p>Want to get in touch? Contact me on any of the platform</p>
+        <p>Email: <b>jokubas.f.vaisnoras@gmail.com</b></p>
+        
         <SocialContact />
         </div>
       </div>

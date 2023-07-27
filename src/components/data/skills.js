@@ -20,8 +20,12 @@ export const SkillsData = [
         icon: <i className="devicon-javascript-plain colored"></i>
       },
       {
-        name: "Tailwind",
-        icon: <i className="devicon-tailwindcss-plain colored"></i>
+        name: "TypeScript",
+        icon: <i className="devicon-typescript-plain colored"></i>
+      },
+      {
+        name: "VueJS",
+        icon: <i className="devicon-vuejs-plain colored"></i>
       },
     ],
   },
@@ -48,6 +52,28 @@ export const SkillsData = [
       {
         name: "Bash",
         icon: <i className="devicon-bash-plain colored"></i>
+      },
+    ],
+  },
+  {
+    id: 3,
+    type: "Data Science & Backend",
+    list: [
+      {
+        name: "Python",
+        icon: <i className="devicon-python-plain colored"></i>
+      },
+      {
+        name: "Java",
+        icon: <i className="devicon-java-plain colored"></i>
+      },
+      {
+        name: "PostgreSQL",
+        icon: <i className="devicon-postgresql-plain colored"></i>
+      },
+      {
+        name: "Spring",
+        icon: <i className="devicon-spring-plain colored"></i>
       },
     ],
   },
