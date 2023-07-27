@@ -101,7 +101,7 @@
     .project-photo-box:hover{
         --_i: 100%;
         color: #CC333F;
-        transform: scale(1.1);
+        transform: scale(1.0);
         transition: .3s, -webkit-mask-size .3s .3s;
     }
     .project-card {
